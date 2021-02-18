@@ -7,6 +7,16 @@ This is example/test/development project for THiNX client library written in Pyt
 ## Running
 
     python ./app.py
+    
+
+* Test application will connect to backend and display incoming MQTT messages in form of alert.
+
+* Upon pushing the `Publish Test` button, app sends message to backend.
+
+## TODO
+
+* Environment Variable Support
+* OTA Update Support
 
 ## Compatibility
 
