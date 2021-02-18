@@ -1,0 +1,6 @@
+guizero
+datetime
+scapy
+requests
+ujson
+paho-mqtt
