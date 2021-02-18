@@ -7,3 +7,9 @@ This is example/test/development project for THiNX client library written in Pyt
 ## Running
 
     python ./app.py
+
+## Compatibility
+
+Developed on Mac OS.
+
+Tested on Raspberry Pi 3 model B.
