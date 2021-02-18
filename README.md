@@ -3,10 +3,10 @@
 This is example/test/development project for THiNX client library written in Python (mainly for Linux-based embedded devices, however works on OSX and other systems as well).
 ## Installation
 
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
 ## Running
 
-    python ./app.py
+    python3 ./app.py
     
 
 * Test application will connect to backend and display incoming MQTT messages in form of alert.
