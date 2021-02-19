@@ -58,9 +58,9 @@ class THiNX():
         try:
             fp = open(CONFIG_PATH, 'r')
             settings = json.load(fp)
-        except Exception as exc:
+        except Exception as ex:
             self.error("JSON configuration did not load from " + CONFIG_PATH + " at " + os.getcwd())
-            raise RuntimeError('Faled to open') from exc
+            raise Exception("Faled to open") from ex
 
         #print(json.dumps(settings, indent = 4, sort_keys=True))
 
