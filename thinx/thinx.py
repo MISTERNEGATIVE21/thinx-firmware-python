@@ -1,7 +1,5 @@
-# Roadmap:
-# TODO: migrate to HTTPS
-# TODO: fetch timestamp from checkin response and set approximate UTC time
-# TODO: implement ENV support
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
 import requests
 import os
