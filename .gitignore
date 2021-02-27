@@ -5,3 +5,6 @@ node_modules/
 
 # local config
 thinx/thinx.cfg
+
+venv/
+.idea/
