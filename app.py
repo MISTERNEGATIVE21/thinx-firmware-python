@@ -84,13 +84,15 @@ class Application():
 
         self.thinx = THiNX()
 
+        # handles aquiring UDID after API registration
         self.thinx.registration_callback = self.registration_callback
+
+        # handles mqtt messages
         self.thinx.mqtt_callback = self.mqtt_callback
 
-        # not on RPI: # self.app.set_full_screen() # With optional keybiding, which is a security hole in this case
-        # self.app.full_scren = True
-
+        self.app.full_screen = True
         self.app.display()
+
         self.thinx.mqtt_client.loop_forever();
 
 app = Application()

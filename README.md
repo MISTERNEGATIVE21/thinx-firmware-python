@@ -6,7 +6,7 @@ This is example/test/development project for THiNX client library written in Pyt
     pip3 install -r requirements.txt
 ## Running
 
-    python3 ./app.py
+    export DISPLAY=:0.0 && python3 ./app.py
     
 
 * Test application will connect to backend and display incoming MQTT messages in form of alert.
