@@ -7,4 +7,3 @@ paho-mqtt
 pathlib
 crypto>=1.4.1
 # base64
-pillow>=8.1.0 # not directly required, pinned by Snyk to avoid a vulnerability
