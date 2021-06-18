@@ -1,9 +1,9 @@
-guizero
+guizero>=1.1.1
 datetime
 scapy
 requests
 paho-mqtt
 # pillow>=8.1.0 # not directly required, pinned by Snyk to avoid a vulnerability
 pathlib
-crypto
+crypto>=1.4.1
 # base64
