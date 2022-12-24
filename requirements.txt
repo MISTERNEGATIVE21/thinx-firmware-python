@@ -8,3 +8,4 @@ pathlib
 pyyaml>=5.4.1
 crypto>=1.4.1
 # base64
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
